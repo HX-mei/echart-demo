@@ -5,7 +5,7 @@
       class="demo"
       router
       mode="horizontal"
-      background-color="#5F9EA0"
+      background-color="#BC8F8F"
       text-color="#fff"
       active-text-color="#ffd04b"
     >
