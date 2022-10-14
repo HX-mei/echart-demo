@@ -13,25 +13,25 @@
         柱状图
       </el-menu-item>
       <el-menu-item
-        index="/basedata"
+        index="/firstone"
         style="margin-left: 220px; height: 50px"
       >
         堆叠折线图
       </el-menu-item>
       <el-menu-item
-        index="/practiceitem"
+        index="/secondtwo"
         style="margin-left: 130px; height: 50px"
       >
         基础饼图
       </el-menu-item>
       <el-menu-item
-        index="/workhistory"
+        index="/thirdthree"
         style="margin-left: 140px; height: 50px"
       >
         圆环图
       </el-menu-item>
       <el-menu-item
-        index="/SelfEvalu"
+        index="/furthefour"
         style="margin-left: 150px; height: 50px"
       >
         基础散点图

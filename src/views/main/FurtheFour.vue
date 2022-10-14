@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
-  name: "SelfEvalu",
+  name: "FurtheFour",
   methods: {
     drawChart() {
       // 基于准备好的dom，初始化echarts实例  这个和上面的four对应

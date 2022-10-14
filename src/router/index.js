@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 //引入组件
-import Home from '../views/main/Home.vue'
+import Mains from '../views/main/Mains.vue'
 import LayOut from '../views/LayOut.vue'
 
 Vue.use(VueRouter)
@@ -13,28 +13,28 @@ const routes = [
     children:[
       {
         path: '',
-        name: 'Home',
-        component: Home,
+        name: 'Mains',
+        component: Mains,
       },
       {
-        path: 'basedata',
-        name: 'BaseData',
-        component: () =>import("../views/main/BaseData.vue"),
+        path: 'firstone',
+        name: 'FirstOne',
+        component: () =>import("../views/main/FirstOne.vue"),
       },
       {
-        path: 'practiceitem',
-        name: 'PracticeItem',
-        component: () =>import("../views/main/PracticeItem.vue"),
+        path: 'secondtwo',
+        name: 'SecondTwo',
+        component: () =>import("../views/main/SecondTwo.vue"),
       },
       {
-        path: 'workhistory',
-        name: 'WorkHistor',
-        component: () =>import("../views/main/WorkHistory.vue"),
+        path: 'thirdthree',
+        name: 'ThirdThree',
+        component: () =>import("../views/main/ThirdThree.vue"),
       },
       {
-        path: 'selfevalu',
-        name: 'SelfEvalu',
-        component: () =>import("../views/main/SelfEvalu.vue"),
+        path: 'furthefour',
+        name: 'FurtheFour',
+        component: () =>import("../views/main/FurtheFour.vue"),
       },
     ]
   },
